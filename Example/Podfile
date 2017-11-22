@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJFNetworking_Example' do
+  pod 'YJFNetworking', :path => '../'
+
+  target 'YJFNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
