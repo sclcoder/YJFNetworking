@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - YJFNetworking (0.1.0):
+    - AFNetworking (~> 3.1.0)
+
+DEPENDENCIES:
+  - YJFNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  YJFNetworking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  YJFNetworking: 36e2541a6923bdbb77aae5bceae16e293df12692
+
+PODFILE CHECKSUM: 93afd570b9ec9284a500b7b402cc0f18602527e8
+
+COCOAPODS: 1.2.1
